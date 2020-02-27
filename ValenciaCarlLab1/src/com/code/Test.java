@@ -11,8 +11,8 @@ public class Test {
 		System.out.println(((Employee) e1).getAge());
 		System.out.println(((Employee) e1).getPos());
 		System.out.println(((Employee) e1).getGender());
-		System.out.println(e1.getEmployee());
 		e1.salary(550, 5.5, 7, 500);
+		((Employee) e1).years(3);
 
 
 		Payroll e2 = new Payroll("Carl Valencia", "20/01/20");
